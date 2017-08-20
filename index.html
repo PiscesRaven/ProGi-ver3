@@ -10,7 +10,6 @@
 
 
   <link href="CSS/bootstrap.css" rel="stylesheet">
-  <link href="CSS/style.css" rel="stylesheet">
   <link href="CSS/animate.min.css" rel="stylesheet">
   <link href="http://fontawesome.io/assets/font-awesome/css/font-awesome.css" rel="stylesheet">
   <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro' rel='stylesheet' type='text/css'>
@@ -33,6 +32,8 @@
 
   <!--標記尾-->
 
+  <link href="CSS/style.css" rel="stylesheet">
+
   <!--[if lt IE 9]>
       <script src="js/html5shiv.js"></script>
       <script src="js/respond.min.js"></script>
@@ -40,285 +41,408 @@
 
 </head>
 <body>
-  <section class="top-header">
-		<nav class="navbar navbar-default navbar-fixed white no-background bootsnav">
-				<div class="container">
+  <section class="top-header ">
+    <nav class="navbar navbar-default bootsnav">
 
-						<div class="navbar-header">
-								<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
-										<i class="fa fa-bars"></i>
-								</button>
-								<a class="navbar-brand" href="index.html">
-										<img src="images/home/logo.png" class="logo logo-display" alt="">
-								</a>
-						</div>
-						<!-- End Header Navigation -->
+      <!-- Start Top Search -->
+      <div class="top-search">
+          <div class="container">
+              <div class="input-group">
+                  <span class="input-group-addon"><i class="fa fa-search"></i></span>
+                  <input type="text" class="form-control" placeholder="Search">
+                  <span class="input-group-addon close-search"><i class="fa fa-times"></i></span>
+              </div>
+          </div>
+      </div>
+      <!-- End Top Search -->
 
-						<!-- Collect the nav links, forms, and other content for toggling -->
-						<div class="collapse navbar-collapse" id="navbar-menu">
-								<ul class="nav navbar-nav navbar-right" data-in="fadeInDown" data-out="fadeOutUp">
-										<li class="dropdown">
-												<a href="#" class="dropdown-toggle" data-toggle="dropdown" >關於源豐本</a>
-												<ul class="dropdown-menu">
-														<li><a href="#">1</a></li>
-														<li><a href="#">2</a></li>
-												</ul>
-										</li>
+              <div class="container">
+                  <!-- Start Atribute Navigation -->
+                  <div class="attr-nav">
+                      <ul>
+                          <li class="search"><a href="#"><i class="fa fa-search" style="color:#3C3C3C;"></i></a></li>
+                        <!--  <li class="side-menu"><a href="#"><i class="fa fa-bars"></i></a></li>-->
+                      </ul>
+                  </div>
+                  <!-- End Atribute Navigation -->
 
-										<!-- 原廠款式 Span -->
-										<li class="dropdown">
-												<a href="#" class="dropdown-toggle" data-toggle="dropdown" >原廠款式</a>
-												<ul class="dropdown-menu">
-														<li class="dropdown">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
+                    <i class="fa fa-bars"></i>
+                </button>
+                <a class="navbar-brand" href="index.html">
+                    <img src="images/home/logo.png" class="logo logo-display hidden-md hidden-sm hidden-xs" alt="">
+                </a>
+            </div>
+            <!-- End Header Navigation -->
 
-															<!-- 冷卻系統 -->
-																<a href="#" class="dropdown-toggle" data-toggle="dropdown" >冷卻系統</a>
-																<ul class="dropdown-menu">
-																		<li><a href="#">水箱水管</a></li>
-																</ul>
-														</li>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="navbar-menu">
+                <ul class="nav navbar-nav navbar-right" data-in="fadeInDown" data-out="fadeOutUp">
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" >關於源豐本</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">公司起源</a></li>
+                            <li><a href="#">未來展望</a></li>
+                            <li><a href="#">企業沿革</a></li>
+                            <li><a href="#">品牌故事</a></li>
+                            <li><a href="#">PROGI車隊</a></li>
+                        </ul>
+                    </li>
 
-														<!-- 底盤懸吊 -->
-														<li class="dropdown">
-																<a href="#" class="dropdown-toggle" data-toggle="dropdown" >底盤懸吊</a>
-																<ul class="dropdown-menu">
-																		<li><a href="#">李仔串</a></li>
-																		<li><a href="#">三角架和尚頭</a></li>
-																</ul>
-														</li>
+                    <!-- 原廠款式 Span -->
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" >原廠款式</a>
+                        <ul class="dropdown-menu">
+                            <li class="dropdown">
 
-														<!-- 汽車配件 -->
-														<li class="dropdown">
-																<a href="#" class="dropdown-toggle" data-toggle="dropdown" >汽車配件</a>
-																<ul class="dropdown-menu">
-																		<li><a href="#">線束</a></li>
-																		<li><a href="#">水管管夾</a></li>
-																</ul>
-														</li>
+                              <!-- 冷卻系統 -->
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" >冷卻系統</a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="#">水箱水管</a></li>
+                                </ul>
+                            </li>
 
-														<!-- 傳動系統 -->
-														<li class="dropdown">
-																<a href="#" class="dropdown-toggle" data-toggle="dropdown" >傳動系統</a>
-																<ul class="dropdown-menu">
-																		<li><a href="#">通用型傳動軸防塵套</a></li>
-																		<li><a href="#">通用型橫拉桿防塵套</a></li>
-																		<li><a href="#">易安裝傳動軸防塵套</a></li>
-																		<li><a href="#">專車專用傳動軸防塵套</a></li>
-																</ul>
-														</li>
+                            <!-- 底盤懸吊 -->
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" >底盤懸吊</a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="#">李仔串</a></li>
+                                    <li><a href="#">三角架和尚頭</a></li>
+                                </ul>
+                            </li>
 
-														<!-- 維修工具 -->
-														<li class="dropdown">
-																<a href="#" class="dropdown-toggle" data-toggle="dropdown" >維修工具</a>
-																<ul class="dropdown-menu">
-																		<li><a href="#">車底/傳動工具</a></li>
-																		<li><a href="#">引擎修護工具</a></li>
-																</ul>
-														</li>
+                            <!-- 汽車配件 -->
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" >汽車配件</a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="#">線束</a></li>
+                                    <li><a href="#">水管管夾</a></li>
+                                </ul>
+                            </li>
 
-														<!-- 引擎系統 -->
-														<li class="dropdown">
-																<a href="#" class="dropdown-toggle" data-toggle="dropdown" >引擎系統</a>
-																<ul class="dropdown-menu">
-																		<li><a href="#">引擎腳</a></li>
-																</ul>
-														</li>
+                            <!-- 傳動系統 -->
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" >傳動系統</a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="#">通用型傳動軸防塵套</a></li>
+                                    <li><a href="#">通用型橫拉桿防塵套</a></li>
+                                    <li><a href="#">易安裝傳動軸防塵套</a></li>
+                                    <li><a href="#">專車專用傳動軸防塵套</a></li>
+                                </ul>
+                            </li>
 
-														<!-- 傳動系統 -->
-														<li class="dropdown">
-																<a href="#" class="dropdown-toggle" data-toggle="dropdown" >傳動系統</a>
-																<ul class="dropdown-menu">
-																		<li><a href="#">通用型傳動軸防塵套</a></li>
-																		<li><a href="#">通用型橫拉桿防塵套</a></li>
-																		<li><a href="#">易安裝傳動軸防塵套</a></li>
-																		<li><a href="#">專車專用傳動軸防塵套</a></li>
-																</ul>
-														</li>
+                            <!-- 維修工具 -->
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" >維修工具</a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="#">車底/傳動工具</a></li>
+                                    <li><a href="#">引擎修護工具</a></li>
+                                </ul>
+                            </li>
 
-														<!-- 化學油品 -->
-														<li><a href="#">化學油品</a></li>
+                            <!-- 引擎系統 -->
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" >引擎系統</a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="#">引擎腳</a></li>
+                                </ul>
+                            </li>
 
-												</ul>
-										</li>
+                            <!-- 傳動系統 -->
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" >傳動系統</a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="#">通用型傳動軸防塵套</a></li>
+                                    <li><a href="#">通用型橫拉桿防塵套</a></li>
+                                    <li><a href="#">易安裝傳動軸防塵套</a></li>
+                                    <li><a href="#">專車專用傳動軸防塵套</a></li>
+                                </ul>
+                            </li>
 
-										<!-- 改裝款式 span -->
-										<li class="dropdown">
-												<a href="#" class="dropdown-toggle" data-toggle="dropdown" >改裝款式</a>
-												<ul class="dropdown-menu">
+                            <!-- 化學油品 -->
+                            <li><a href="#">化學油品</a></li>
 
-													<!-- 優力膠襯套 -->
-														<li class="dropdown">
-																<a href="#" class="dropdown-toggle" data-toggle="dropdown" >優力膠襯套</a>
-																<ul class="dropdown-menu">
-																		<li><a href="#">通用優力膠襯套</a></li>
+                        </ul>
+                    </li>
 
-																		<!-- 歐系車廠 -->
-																		<li class="dropdown">
-																				<a href="#" class="dropdown-toggle" data-toggle="dropdown" >歐系車廠</a>
-																				<ul class="dropdown-menu">
-																						<li><a href="#">ALFA ROMEO</a></li>
-																						<li><a href="#">FERRARI</a></li>
-																						<li><a href="#">FIAT</a></li>
-																						<li><a href="#">LAND ROVER</a></li>
-																						<li><a href="#">MASERATI</a></li>
-																						<li><a href="#">MG</a></li>
-																						<li><a href="#">PEUGEOT</a></li>
-																						<li><a href="#">SAAB</a></li>
-																						<li><a href="#">SKODA</a></li>
-																						<li><a href="#">VOLVO</a></li>
-																						<li><a href="#">Proton</a></li>
-																				</ul>
-																		</li>
+                    <!-- 改裝款式 span -->
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" >改裝款式</a>
+                        <ul class="dropdown-menu">
 
-																		<!-- 德系車廠 -->
-																		<li class="dropdown">
-																				<a href="#" class="dropdown-toggle" data-toggle="dropdown" >德系車廠</a>
-																				<ul class="dropdown-menu">
-																						<li><a href="#">AUDI</a></li>
-																						<li><a href="#">BENA</a></li>
-																						<li><a href="#">BMW</a></li>
-																						<li><a href="#">OPEL</a></li>
-																						<li><a href="#">PORSCHE</a></li>
-																						<li><a href="#">VOLKSWAGEN</a></li>
-																				</ul>
-																		</li>
+                          <!-- 依照車系 -->
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" >依照車系</a>
+                                <ul class="dropdown-menu">
 
-																		<!-- 美系車廠 -->
-																		<li class="dropdown">
-																				<a href="#" class="dropdown-toggle" data-toggle="dropdown" >美系車廠</a>
-																				<ul class="dropdown-menu">
-																						<li><a href="#">CADILLAC</a></li>
-																						<li><a href="#">CHEVROLET</a></li>
-																						<li><a href="#">FORD</a></li>
-																						<li><a href="#">JEEP</a></li>
-																						<li><a href="#">SATURN</a></li>
-																				</ul>
-																		</li>
+                                    <!-- 歐系車廠 -->
+                                    <li class="dropdown">
+                                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" >歐系車廠</a>
+                                        <ul class="dropdown-menu">
+                                            <li><a href="#">ALFA ROMEO</a></li>
+                                            <li><a href="#">FERRARI</a></li>
+                                            <li><a href="#">FIAT</a></li>
+                                            <li><a href="#">LAND ROVER</a></li>
+                                            <li><a href="#">MASERATI</a></li>
+                                            <li><a href="#">MG</a></li>
+                                            <li><a href="#">PEUGEOT</a></li>
+                                            <li><a href="#">SAAB</a></li>
+                                            <li><a href="#">SKODA</a></li>
+                                            <li><a href="#">VOLVO</a></li>
+                                            <li><a href="#">Proton</a></li>
+                                        </ul>
+                                    </li>
 
-																		<!-- 日系車廠 -->
-																		<li class="dropdown">
-																				<a href="#" class="dropdown-toggle" data-toggle="dropdown" >日系車廠</a>
-																				<ul class="dropdown-menu">
-																						<li><a href="#">DAIGATSU</a></li>
-																						<li><a href="#">FUSO</a></li>
-																						<li><a href="#">LEXUS</a></li>
-																						<li><a href="#">HONDA</a></li>
-																						<li><a href="#">INFINITI</a></li>
-																						<li><a href="#">ISUZU</a></li>
-																						<li><a href="#">MAZDA</a></li>
-																						<li><a href="#">NISSAN</a></li>
-																						<li><a href="#">SUZUKI</a></li>
-																						<li><a href="#">SUBARU</a></li>
-																						<li><a href="#">TOYOTA</a></li>
-																				</ul>
-																		</li>
+                                    <!-- 德系車廠 -->
+                                    <li class="dropdown">
+                                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" >德系車廠</a>
+                                        <ul class="dropdown-menu">
+                                            <li><a href="#">AUDI</a></li>
+                                            <li><a href="#">BENA</a></li>
+                                            <li><a href="#">BMW</a></li>
+                                            <li><a href="#">OPEL</a></li>
+                                            <li><a href="#">PORSCHE</a></li>
+                                            <li><a href="#">VOLKSWAGEN</a></li>
+                                        </ul>
+                                    </li>
 
-																		<!-- 歐系車廠 -->
-																		<li class="dropdown">
-																				<a href="#" class="dropdown-toggle" data-toggle="dropdown" >歐系車廠</a>
-																				<ul class="dropdown-menu">
-																						<li><a href="#">HYUNDAI</a></li>
-																						<li><a href="#">KIA</a></li>
-																				</ul>
-																		</li>
+                                    <!-- 美系車廠 -->
+                                    <li class="dropdown">
+                                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" >美系車廠</a>
+                                        <ul class="dropdown-menu">
+                                            <li><a href="#">CADILLAC</a></li>
+                                            <li><a href="#">CHEVROLET</a></li>
+                                            <li><a href="#">FORD</a></li>
+                                            <li><a href="#">JEEP</a></li>
+                                            <li><a href="#">SATURN</a></li>
+                                        </ul>
+                                    </li>
 
-																		<!-- 韓系車廠 -->
-																		<li class="dropdown">
-																				<a href="#" class="dropdown-toggle" data-toggle="dropdown" >國產車廠</a>
-																				<ul class="dropdown-menu">
-																						<li><a href="#">LUXGEN</a></li>
-																				</ul>
-																		</li>
+                                    <!-- 日系車廠 -->
+                                    <li class="dropdown">
+                                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" >日系車廠</a>
+                                        <ul class="dropdown-menu">
+                                            <li><a href="#">DAIGATSU</a></li>
+                                            <li><a href="#">FUSO</a></li>
+                                            <li><a href="#">LEXUS</a></li>
+                                            <li><a href="#">HONDA</a></li>
+                                            <li><a href="#">INFINITI</a></li>
+                                            <li><a href="#">ISUZU</a></li>
+                                            <li><a href="#">MAZDA</a></li>
+                                            <li><a href="#">NISSAN</a></li>
+                                            <li><a href="#">SUZUKI</a></li>
+                                            <li><a href="#">SUBARU</a></li>
+                                            <li><a href="#">TOYOTA</a></li>
+                                        </ul>
+                                    </li>
 
-																	</ul>
-																</li><!--3層選單結尾-->
+                                    <!-- 歐系車廠 -->
+                                    <li class="dropdown">
+                                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" >歐系車廠</a>
+                                        <ul class="dropdown-menu">
+                                            <li><a href="#">HYUNDAI</a></li>
+                                            <li><a href="#">KIA</a></li>
+                                        </ul>
+                                    </li>
 
-																<!-- 進氣系統 -->
-																<li class="dropdown">
-																		<a href="#" class="dropdown-toggle" data-toggle="dropdown" >進氣系統</a>
-																		<ul class="dropdown-menu">
-																				<li><a href="#">散熱渦輪節氣門墊片</a></li>
-																		</ul>
-																</li>
+                                    <!-- 韓系車廠 -->
+                                    <li class="dropdown">
+                                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" >國產車廠</a>
+                                        <ul class="dropdown-menu">
+                                            <li><a href="#">LUXGEN</a></li>
+                                        </ul>
+                                    </li>
 
-																<!-- 底盤懸吊 -->
-																<li class="dropdown">
-																		<a href="#" class="dropdown-toggle" data-toggle="dropdown" >底盤懸吊</a>
-																		<ul class="dropdown-menu">
-																				<li><a href="#">強化李仔串</a></li>
-																				<li><a href="#">強化三角架和尚頭</a></li>
-																				<li><a href="#">避震器彈簧緩衝墊</a></li>
-																				<li><a href="#">道路版避震器</a></li>
-																				<li><a href="#">競技版避震器</a></li>
-																		</ul>
-																</li>
+                                  </ul>
+                                </li><!--3層選單結尾-->
 
-																<!-- 冷卻系統 -->
-																<li class="dropdown">
-																		<a href="#" class="dropdown-toggle" data-toggle="dropdown" >冷卻系統</a>
-																		<ul class="dropdown-menu">
-																				<li><a href="#">直管</a></li>
-																				<li><a href="#">米管</a></li>
-																				<li><a href="#">變徑管</a></li>
-																				<li><a href="#">駝峰管</a></li>
-																				<li><a href="#">T型管</a></li>
-																				<li><a href="#">矽膠水管</a></li>
-																				<li><a href="#">強化熱水塞</a></li>
-																				<li><a href="#">45度彎管</a></li>
-																				<li><a href="#">45度變徑彎管</a></li>
-																				<li><a href="#">90度彎管</a></li>
-																				<li><a href="#">90度變徑彎管</a></li>
-																				<li><a href="#">135度彎管</a></li>
-																				<li><a href="#">各車種專用水管</a></li>
-																				<li><a href="#">測溫安全水箱蓋</a></li>
-																		</ul>
-																</li>
+                          <!-- 優力膠襯套 -->
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" >優力膠襯套</a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="#">通用優力膠襯套</a></li>
 
-																<!-- 傳動系統 -->
-																<li class="dropdown">
-																		<a href="#" class="dropdown-toggle" data-toggle="dropdown" >傳動系統</a>
-																		<ul class="dropdown-menu">
-																				<li><a href="#">通用型方向機防塵套</a></li>
-																				<li><a href="#">通用型傳動軸防塵套</a></li>
-																		</ul>
-																</li>
+                                    <!-- 歐系車廠 -->
+                                    <li class="dropdown">
+                                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" >歐系車廠</a>
+                                        <ul class="dropdown-menu">
+                                            <li><a href="#">ALFA ROMEO</a></li>
+                                            <li><a href="#">FERRARI</a></li>
+                                            <li><a href="#">FIAT</a></li>
+                                            <li><a href="#">LAND ROVER</a></li>
+                                            <li><a href="#">MASERATI</a></li>
+                                            <li><a href="#">MG</a></li>
+                                            <li><a href="#">PEUGEOT</a></li>
+                                            <li><a href="#">SAAB</a></li>
+                                            <li><a href="#">SKODA</a></li>
+                                            <li><a href="#">VOLVO</a></li>
+                                            <li><a href="#">Proton</a></li>
+                                        </ul>
+                                    </li>
 
-																<!-- 煞車系統 -->
-																<li class="dropdown">
-																		<a href="#" class="dropdown-toggle" data-toggle="dropdown" >煞車系統</a>
-																		<ul class="dropdown-menu">
-																				<li><a href="#">多活塞煞車卡鉗</a></li>
-																		</ul>
-																</li>
+                                    <!-- 德系車廠 -->
+                                    <li class="dropdown">
+                                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" >德系車廠</a>
+                                        <ul class="dropdown-menu">
+                                            <li><a href="#">AUDI</a></li>
+                                            <li><a href="#">BENA</a></li>
+                                            <li><a href="#">BMW</a></li>
+                                            <li><a href="#">OPEL</a></li>
+                                            <li><a href="#">PORSCHE</a></li>
+                                            <li><a href="#">VOLKSWAGEN</a></li>
+                                        </ul>
+                                    </li>
 
-																<!-- 工業類用品 -->
-																<li class="dropdown">
-																		<a href="#" class="dropdown-toggle" data-toggle="dropdown" >工業類用品</a>
-																		<ul class="dropdown-menu">
-																				<li><a href="#">散熱渦輪節氣門墊片</a></li>
-																		</ul>
-																</li>
+                                    <!-- 美系車廠 -->
+                                    <li class="dropdown">
+                                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" >美系車廠</a>
+                                        <ul class="dropdown-menu">
+                                            <li><a href="#">CADILLAC</a></li>
+                                            <li><a href="#">CHEVROLET</a></li>
+                                            <li><a href="#">FORD</a></li>
+                                            <li><a href="#">JEEP</a></li>
+                                            <li><a href="#">SATURN</a></li>
+                                        </ul>
+                                    </li>
 
-																<!-- 其他熱門產品 -->
-																<li class="dropdown">
-																		<a href="#" class="dropdown-toggle" data-toggle="dropdown" >其他熱門產品</a>
-																		<ul class="dropdown-menu">
-																				<li><a href="#">PROGi品牌T-shirt</a></li>
-																		</ul>
-																</li>
+                                    <!-- 日系車廠 -->
+                                    <li class="dropdown">
+                                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" >日系車廠</a>
+                                        <ul class="dropdown-menu">
+                                            <li><a href="#">DAIGATSU</a></li>
+                                            <li><a href="#">FUSO</a></li>
+                                            <li><a href="#">LEXUS</a></li>
+                                            <li><a href="#">HONDA</a></li>
+                                            <li><a href="#">INFINITI</a></li>
+                                            <li><a href="#">ISUZU</a></li>
+                                            <li><a href="#">MAZDA</a></li>
+                                            <li><a href="#">NISSAN</a></li>
+                                            <li><a href="#">SUZUKI</a></li>
+                                            <li><a href="#">SUBARU</a></li>
+                                            <li><a href="#">TOYOTA</a></li>
+                                        </ul>
+                                    </li>
 
-												</ul>
-										</li><!--改裝產品結尾-->
+                                    <!-- 歐系車廠 -->
+                                    <li class="dropdown">
+                                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" >歐系車廠</a>
+                                        <ul class="dropdown-menu">
+                                            <li><a href="#">HYUNDAI</a></li>
+                                            <li><a href="#">KIA</a></li>
+                                        </ul>
+                                    </li>
 
-										 <!-- 消息中心 -->
-										<li class="dropdown">
-												<a href="#" class="dropdown-toggle" data-toggle="dropdown" >消息中心</a>
-												<ul class="dropdown-menu">
-														<li><a href="#">01</a></li>
-														<li><a href="#">02</a></li>
-														<li><a href="#">03</a></li>
-												</ul>
-										</li>
+                                    <!-- 韓系車廠 -->
+                                    <li class="dropdown">
+                                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" >國產車廠</a>
+                                        <ul class="dropdown-menu">
+                                            <li><a href="#">LUXGEN</a></li>
+                                        </ul>
+                                    </li>
+
+                                  </ul>
+                                </li><!--3層選單結尾-->
+
+                                <!-- 進氣系統 -->
+                                <li class="dropdown">
+                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" >進氣系統</a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="#">散熱渦輪節氣門墊片</a></li>
+                                    </ul>
+                                </li>
+
+                                <!-- 底盤懸吊 -->
+                                <li class="dropdown">
+                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" >底盤懸吊</a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="#">強化李仔串</a></li>
+                                        <li><a href="#">強化三角架和尚頭</a></li>
+                                        <li><a href="#">避震器彈簧緩衝墊</a></li>
+                                        <li><a href="#">道路版避震器</a></li>
+                                        <li><a href="#">競技版避震器</a></li>
+                                    </ul>
+                                </li>
+
+                                <!-- 冷卻系統 -->
+                                <li class="dropdown">
+                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" >冷卻系統</a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="#">直管</a></li>
+                                        <li><a href="#">米管</a></li>
+                                        <li><a href="#">變徑管</a></li>
+                                        <li><a href="#">駝峰管</a></li>
+                                        <li><a href="#">T型管</a></li>
+                                        <li><a href="#">矽膠水管</a></li>
+                                        <li><a href="#">強化熱水塞</a></li>
+                                        <li><a href="#">45度彎管</a></li>
+                                        <li><a href="#">45度變徑彎管</a></li>
+                                        <li><a href="#">90度彎管</a></li>
+                                        <li><a href="#">90度變徑彎管</a></li>
+                                        <li><a href="#">135度彎管</a></li>
+                                        <li><a href="#">各車種專用水管</a></li>
+                                        <li><a href="#">測溫安全水箱蓋</a></li>
+                                    </ul>
+                                </li>
+
+                                <!-- 傳動系統 -->
+                                <li class="dropdown">
+                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" >傳動系統</a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="#">通用型方向機防塵套</a></li>
+                                        <li><a href="#">通用型傳動軸防塵套</a></li>
+                                    </ul>
+                                </li>
+
+                                <!-- 煞車系統 -->
+                                <li class="dropdown">
+                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" >煞車系統</a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="#">多活塞煞車卡鉗</a></li>
+                                    </ul>
+                                </li>
+
+                                <!-- 工業類用品 -->
+                                <li class="dropdown">
+                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" >工業類用品</a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="#">散熱渦輪節氣門墊片</a></li>
+                                    </ul>
+                                </li>
+
+                                <!-- 其他熱門產品 -->
+                                <li class="dropdown">
+                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" >其他熱門產品</a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="#">PROGi品牌T-shirt</a></li>
+                                    </ul>
+                                </li>
+
+                        </ul>
+                    </li><!--改裝產品結尾-->
+
+                    <!--技術核心-->
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" >技術核心</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">產品解說</a></li>
+                            <li><a href="#">公司車聚</a></li>
+                            <li><a href="#">關於研發與製造</a></li>
+                            <li><a href="#">品牌故事</a></li>
+                            <li><a href="#">技術品質</a></li>
+                            <li><a href="#">倉儲出貨</a></li>
+                        </ul>
+                    </li>
+
+                     <!-- 消息中心 -->
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" >消息中心</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">01</a></li>
+                            <li><a href="#">02</a></li>
+                            <li><a href="#">03</a></li>
+                        </ul>
+                    </li>
 
                     <!-- 購物 -->
                     <li><a href="#">progi購物</a></li>
@@ -327,30 +451,23 @@
                     <li><a href="#">progi修車</a></li>
 
 
-										 <!-- 消息中心 -->
-										 <li><a href="#">聯絡我們</a></li>
+                     <!-- 消息中心 -->
+                     <li><a href="#">全球經銷商</a></li>
 
-										<!--下拉選單結束-->
-                    <li>
-                      <form action="" class="search-form">
-                        <div class="form-group has-feedback">
-            		          <label for="search" class="sr-only">Search</label>
-            		            <input type="text" class="form-control" name="search" id="search" placeholder="search">
-              		           <span class="form-control-feedback"><i class="fa fa-search" aria-hidden="true"></i>
-                             </span>
-            	         </div>
-                     </form>
-                   </li>
-								</ul>
-						</div><!-- /.navbar-collapse -->
-				</div>
+                    <!--下拉選單結束-->
 
-		</nav>
-	</section>
-		<!-- End Navigation -->
+                </ul>
+            </div><!-- /.navbar-collapse -->
+        </div>
+    </nav>
+  </section>
+    <!-- End Navigation -->
 
-    <!--公司形象-->
-    <section id="bootstrap-touch-slider" class="carousel bs-slider slide  control-round indicators-line" data-ride="carousel" data-pause="hover" data-interval="5000" >
+
+
+
+           <!--公司形象-->
+           <section id="bootstrap-touch-slider" class="carousel bs-slider slide  control-round indicators-line" data-ride="carousel" data-pause="hover" data-interval="5000" >
 
              <ol class="carousel-indicators">
                  <li data-target="#bootstrap-touch-slider" data-slide-to="0" class="active"></li>
@@ -360,35 +477,15 @@
 
              <div class="carousel-inner" role="listbox">
                  <span class="item active">
-                   <img src="images/home/public1.jpg" alt="Bootstrap Touch Slider"  class="slide-image"/>
-                   <div class="bs-slider-overlay"></div>
-                   <div class="slide-text slide_style_center">
-                       <h1 data-animation="animated flipInX">title</h1>
-                       <p data-animation="animated lightSpeedIn">文宣文案</p>
-                   </div>
+                   <img src="images/home/public1.jpg" alt="Bootstrap Touch Slider"  class="img-responsive">
                  </span>
 
                  <span class="item">
-                   <img src="images/home/public2.jpg" alt="Bootstrap Touch Slider"  class="slide-image"/>
-                   <div class="bs-slider-overlay"></div>
-
-                   <div class="container">
-                       <div class="row">
-                           <div class="slide-text slide_style_left">
-                             <h1 data-animation="animated flipInX">title</h1>
-                             <p data-animation="animated lightSpeedIn">文宣文案</p>
-                           </div>
-                       </div>
-                   </div>
+                   <img src="images/home/public02.jpg" alt="Bootstrap Touch Slider"  class="img-responsive">
                  </span>
 
                  <span class="item">
-                     <img src="images/home/car01.jpg" alt="Bootstrap Touch Slider"  class="slide-image"/>
-                     <div class="bs-slider-overlay"></div>
-                     <div class="slide-text slide_style_right">
-                       <h1 data-animation="animated flipInX">title</h1>
-                       <p data-animation="animated lightSpeedIn">文宣文案</p>
-                     </div>
+                     <img src="images/home/car01.jpg" alt="Bootstrap Touch Slider"  class="img-responsive">
                  </span>
              </div><!--形象照片:"End -->
 
@@ -404,236 +501,244 @@
                  <span class="sr-only">Next</span>
              </a>
 
-         </section>
+           </section>
 
-         <!-- 形象影片 -->
-         <section id="main-slider" class="no-margin">
-           <div class="carousel slide">
-            <ol class="carousel-indicators">
-              <li data-target="#main-slider" data-slide-to="0" class="active"></li>
-              <li data-target="#main-slider" data-slide-to="1"></li>
-              <li data-target="#main-slider" data-slide-to="2"></li>
-             </ol>
-              <div class="carousel-inner">
+           <!-- 形象影片 -->
+           <section id="main-slider" class="no-margin">
+             <div class="carousel slide">
+                <ol class="carousel-indicators">
+                    <li data-target="#main-slider" data-slide-to="0" class="active"></li>
+                    <li data-target="#main-slider" data-slide-to="1"></li>
+                    <li data-target="#main-slider" data-slide-to="2"></li>
+                </ol>
+               <div class="carousel-inner">
 
-                <!--第一張圖-->
-               <div class="item active">
-                <div class="container">
-                  <div class="row slide-margin">
-                    <div class="col-sm-4 col-sm-offset-1">
-                      <div class="carousel-content">
-                        <h1 class="animation animated-item-1 text-center"><b>PROGi</b>企業形象</h1>
-                        <h3 class="animation animated-item-2">與眾不同、創新、精進、價值感，是<b>PROGI</b>積極追求的品牌精神與核心價值。
-                          我們製造的每一樣MIT零件銷售到世界每一個角落大陸與日韓、英德法、等知名汽車零配件通路商與進出口商都是我們的忠實買家。</h3>
-                        <img src="images/home/VIdeo-pic.png" class="animation animated-item-3 img-responsive hidden-xs hidden-md hidden-sm">
-                       </div>
-                     </div>
+                 <!--第一張圖-->
+                 <div class="item active">
+                    <div class="container">
+                      <div class="row slide-margin">
+                        <div class="col-sm-5 col-sm-offset-1 ">
+                          <div class="carousel-content">
+                              <h1 class="animation animated-item-1 text-center"><b>PROGi</b>企業形象</h1>
+                              <h3 class="animation animated-item-2">與眾不同、創新、精進、價值感，是<b>PROGI</b>積極追求的品牌精神與核心價值。
+                                我們製造的每一樣MIT零件銷售到世界每一個角落大陸與日韓、英德法、等知名汽車零配件通路商與進出口商都是我們的忠實買家。</h3>
+                              <span class="video-left">
+                                <img src="images/home/VIdeo-pic.png" class="animation animated-item-3 img-responsive hidden-xs hidden-md hidden-sm">
+                              </span>
+                          </div>
+                        </div>
 
-                     <div class="col-sm-6 animation animated-item-4">
-                       <div class="slider-img">
-                           <img src="images/home/VIdeo-1.png" class="img-responsive">
-                       </div>
-                       <span id="image-icon">
-                       <a href="https://www.youtube.com/watch?v=uEEcCgkjWUQ" data-lity><i class="fa fa-youtube-play fa-5x scale_up" aria-hidden="true" style="color:#EE1E17;"></i></a>
-                       </span>
-                     </div>
+                        <div class="col-lg-6 col-sm-6 col-xs-12 animation animated-item-4">
+                          <div class="slider-img">
+                              <img src="images/home/VIdeo-1.png" class="img-responsive hidden-md hidden-xs hidden-sm">
+                              <img src="images/home/VIdeo-mob.jpg" class="img-responsive visible-md visible-xs visible-sm">
+                          </div>
+                          <span id="image-icon">
+                                <a href="https://www.youtube.com/watch?v=uEEcCgkjWUQ" data-lity>
+                                   <i class="fa fa-youtube-play fa-5x scale_up" aria-hidden="true" style="color:#EE1E17;"></i>
+                                </a>
+                          </span>
+                        </div>
 
+                      </div>
                     </div>
-                   </div>
                   </div><!--/.item-end -->
 
-                   <!--第二圖-->
-                    <div class="item">
-                     <div class="container">
-                      <<div class="row slide-margin">
-                        <div class="col-sm-5 col-sm-offset-1">
+                  <!--第二圖-->
+                  <div class="item">
+                    <div class="container">
+                      <div class="row slide-margin">
+                        <div class="col-sm-4 col-sm-offset-1">
                           <div class="carousel-content">
                             <h1 class="animation animated-item-1 text-center"><b>PROGi</b>企業形象</h1>
                             <h3 class="animation animated-item-2">與眾不同、創新、精進、價值感，是<b>PROGI</b>積極追求的品牌精神與核心價值。
-                              我們製造的每一樣MIT零件銷售到世界每一個角落大陸與日韓、英德法、等知名汽車零配件通路商與進出口商都是我們的忠實買家。</h3>
-                            <img src="images/home/VIdeo-pic.png" class="animation animated-item-3 img-responsive hidden-xs hidden-md hidden-sm">
-                           </div>
-                         </div>
-
-                         <div class="col-sm-6 animation animated-item-4">
-                           <div class="slider-img">
-                               <img src="images/home/VIdeo-1.png" class="img-responsive">
-                           </div>
-                           <span id="image-icon">
-                           <a href="https://www.youtube.com/watch?v=uEEcCgkjWUQ" data-lity><i class="fa fa-youtube-play fa-5x scale_up" aria-hidden="true" style="color:#EE1E17;"></i></a>
-                           </span>
-                         </div>
-
+                               我們製造的每一樣MIT零件銷售到世界每一個角落大陸與日韓、英德法、等知名汽車零配件通路商與進出口商都是我們的忠實買家。</h3>
+                            <span class="video-left">
+                              <img src="images/home/VIdeo-pic.png" class="animation animated-item-3 img-responsive hidden-xs hidden-md hidden-sm">
+                            </span>
+                          </div>
                         </div>
-                       </div>
-                      </div><!--/.item END-->
 
-                      <!--第三圖-->
-                      <div class="item">
-                       <div class="container">
-                         <div class="row slide-margin">
-                           <div class="col-sm-5 col-sm-offset-1">
-                             <div class="carousel-content">
-                               <h1 class="animation animated-item-1 text-center"><b>PROGi</b>企業形象</h1>
-                               <h3 class="animation animated-item-2">與眾不同、創新、精進、價值感，是<b>PROGI</b>積極追求的品牌精神與核心價值。
-                                 我們製造的每一樣MIT零件銷售到世界每一個角落大陸與日韓、英德法、等知名汽車零配件通路商與進出口商都是我們的忠實買家。</h3>
-                               <img src="images/home/VIdeo-pic.png" class="animation animated-item-3 img-responsive hidden-xs hidden-md hidden-sm">
-                              </div>
-                            </div>
+                        <div class="col-sm-6 animation animated-item-4">
+                          <div class="slider-img">
+                            <img src="images/home/VIdeo-1.png" class="img-responsive hidden-md hidden-xs hidden-sm">
+                            <img src="images/home/VIdeo-mob.jpg" class="img-responsive visible-md visible-xs visible-sm">
+                          </div>
+                          <span id="image-icon">
+                            <a href="https://www.youtube.com/watch?v=uEEcCgkjWUQ" data-lity>
+                              <i class="fa fa-youtube-play fa-5x scale_up" aria-hidden="true" style="color:#EE1E17;"></i>
+                            </a>
+                          </span>
+                         </div>
+                        </div>
+                      </div>
+                    </div><!--/.item END-->
 
-                            <div class="col-sm-6 animation animated-item-4">
-                              <div class="slider-img">
-                                  <img src="images/home/VIdeo-1.png" class="img-responsive">
-                              </div>
-                              <span id="image-icon">
-                              <a href="https://www.youtube.com/watch?v=uEEcCgkjWUQ" data-lity><i class="fa fa-youtube-play fa-5x scale_up" aria-hidden="true" style="color:#EE1E17;"></i></a>
+                    <!--第三圖-->
+                    <div class="item">
+                      <div class="container">
+                        <div class="row slide-margin">
+                          <div class="col-sm-4 col-sm-offset-1">
+                            <div class="carousel-content">
+                              <h1 class="animation animated-item-1 text-center"><b>PROGi</b>企業形象</h1>
+                              <h3 class="animation animated-item-2">與眾不同、創新、精進、價值感，是<b>PROGI</b>積極追求的品牌精神與核心價值。
+                                  我們製造的每一樣MIT零件銷售到世界每一個角落大陸與日韓、英德法、等知名汽車零配件通路商與進出口商都是我們的忠實買家。</h3>
+                              <span class="video-left">
+                                <img src="images/home/VIdeo-pic.png" class="animation animated-item-3 img-responsive hidden-xs hidden-md hidden-sm">
                               </span>
                             </div>
+                          </div>
 
-                           </div>
-                       </div>
-                      </div><!--/.item-->
-                     </div><!--/.carousel-inner-->
+                          <div class="col-sm-6 animation animated-item-4">
+                            <div class="slider-img">
+                              <img src="images/home/VIdeo-1.png" class="img-responsive hidden-md hidden-xs hidden-sm">
+                              <img src="images/home/VIdeo-mob.jpg" class="img-responsive visible-md visible-xs visible-sm">
+                            </div>
+                            <span id="image-icon">
+                              <a href="https://www.youtube.com/watch?v=uEEcCgkjWUQ" data-lity>
+                                <i class="fa fa-youtube-play fa-5x scale_up" aria-hidden="true" style="color:#EE1E17;"></i>
+                              </a>
+                            </span>
+                          </div>
+                        </div>
+                  </div>
+                </div><!--/.item-->
+              </div><!--/.carousel-inner-->
+             </div><!--/.carousel-->
 
-                     </div><!--/.carousel-->
-                      <a class="prev hidden-xs" href="#main-slider" data-slide="prev">
-                        <i class="fa fa-chevron-left"></i>
-                      </a>
-                      <a class="next hidden-xs" href="#main-slider" data-slide="next">
-                        <i class="fa fa-chevron-right"></i>
-                      </a>
-                    </section><!--/#main-slider-->
+                   <a class="prev hidden-xs" href="#main-slider" data-slide="prev">
+                      <i class="fa fa-chevron-left"></i>
+                   </a>
+                   <a class="next hidden-xs" href="#main-slider" data-slide="next">
+                      <i class="fa fa-chevron-right"></i>
+                   </a>
+           </section><!--/#main-slider-->
 
-         <!-- 產品搜尋 -->
-         <section>
-           <div class="container" id="product-search">
-             <div class="row">
-               <div id="search-row">
-               <hgroup class="search-title">
-                 <h1><b>PROGI</b>產品檢索</h1>
-                 <h4>讓我們為您找最適合愛車的商品</h4>
-               </hgroup>
-               <article id="search-menu">
-                 <div class="col-md-3 col-xs-6">
-                   <span class="form-group">
-                     <select class="form-control">
+           <!-- 產品搜尋 -->
+           <section>
+             <div class="container" id="product-search">
+               <div class="row">
+                 <div id="search-row">
+                   <hgroup class="search-title">
+                     <h1><b>PROGI</b>產品檢索</h1>
+                     <h4>讓我們為您找最適合愛車的商品</h4>
+                   </hgroup>
+
+                 <article id="search-menu">
+                   <div class="col-lg-3 col-xs-6">
+                     <span class="form-group">
+                       <select class="form-control">
                          <option value="0" selected>車廠</option>
                          <option value="1">Featured</option>
                          <option value="2">Most popular</option>
                          <option value="3">Top rated</option>
                          <option value="4">Most commented</option>
                      </select>
-                   </span>
-                 </div>
+                    </span>
+                   </div>
 
-                 <div class="col-md-3 col-xs-6">
-                   <span class="form-group">
-                     <select class="form-control">
+                   <div class="col-lg-3 col-xs-6">
+                     <span class="form-group">
+                       <select class="form-control">
                          <option value="0" selected>車系</option>
                          <option value="1">1</option>
-                     </select>
-                   </span>
-                 </div>
+                       </select>
+                     </span>
+                   </div>
 
-                 <div class="col-md-3 col-xs-6">
-                   <span class="form-group">
-                     <select class="form-control">
+                   <div class="col-lg-3 col-xs-6">
+                     <span class="form-group">
+                       <select class="form-control">
                          <option value="0" selected>車型</option>
                          <option value="1">1</option>
-                     </select>
-                   </span>
-                 </div>
+                       </select>
+                     </span>
+                   </div>
 
-                 <div class="col-md-3 col-xs-6">
+                   <div class="col-lg-3 col-xs-6">
                      <span class="form-group">
                        <select class="form-control">
                            <option value="0" selected>產品項目</option>
                            <option value="1">1</option>
                        </select>
                      </span>
-                    </div>
+                  </div>
                  </article>
-                </div>
-
-               <div class="col-md-2 col-md-offset-5 col-xs-3 col-xs-offset-5">
-                   <nav class="view">
-                     <a href="#"  class="btn btn-default">搜尋<i class="fa fa-search" aria-hidden="true"></i></a>
-                   </nav>
-               </div>
-              </div>
-            </div>
-           </div>
-         </SECTION>
-
-         <!-- 商品 -->
-         <section id="product">
-           <div class="container">
-             <div class="row">
-               <article>
-                 <div class="col-lg-3 col-md-3 col-xs-6">
-                   <img src="images/home/product1.jpg" class="img-responsive hidden-xs">
-                   <img src="images/home/product1-mob.jpg" class="img-responsive visible-xs">
-                    <span class="product-text" >
-                      <h4><b>優力膠套件</b></h4>
-                      <nav class="view">
-                        <a href="#"  class="btn btn-default">View More</a>
-                      </nav>
-                    </span>
                  </div>
 
-                 <div class="col-lg-3 col-md-3 col-xs-6">
-                   <img src="images/home/product2.jpg" class="img-responsive hidden-xs">
-                   <img src="images/home/product2-B.jpg" class="img-responsive visible-xs">
-                     <span class="product-text">
+                 <div class="col-md-2 col-md-offset-5 col-sm-5 col-sm-offset-4 col-xs-3 col-xs-offset-4">
+                   <nav class="view">
+                     <a href="#"  class="btn btn-default search-btn" align="center">搜尋<i class="fa fa-search" aria-hidden="true"></i>
+                     </a>
+                   </nav>
+                </div>
+               </div>
+              </div>
+           </SECTION>
+
+           <!-- 商品 -->
+           <section id="product">
+             <div class="container">
+               <div class="row">
+                 <article>
+                   <div class="col-lg-3 col-sm-3 col-xs-6">
+                     <img src="images/home/product1.jpg" class="img-responsive hidden-xs">
+                     <img src="images/home/product1-mob.jpg" class="img-responsive visible-xs">
+                   <span class="product-text">
+                     <h4><b>優力膠套件</b></h4>
+                     <nav class="view">
+                       <a href="#"  class="btn btn-default">View More</a>
+                     </nav>
+                   </span>
+                   </div>
+
+                   <div class="col-lg-3 col-sm-3 col-xs-6">
+                     <img src="images/home/product2.jpg" class="img-responsive hidden-xs">
+                     <img src="images/home/product2-B.jpg" class="img-responsive visible-xs">
+                   <span class="product-text">
                      <h4><b>原廠套件</b></h4>
                      <div class="view">
                        <a href="#"  class="btn btn-default">View More</a>
                      </div>
                    </span>
-                 </div>
+                   </div>
 
-                 <div class="col-lg-3 col-md-3 col-xs-6">
-                   <img src="images/home/product3.jpg" class="img-responsive hidden-xs">
-                   <img src="images/home/product3-mob.jpg" class="img-responsive visible-xs">
-                     <span class="product-text">
+                   <div class="col-lg-3 col-sm-3 col-xs-6">
+                     <img src="images/home/product3.jpg" class="img-responsive hidden-xs">
+                     <img src="images/home/product3-mob.jpg" class="img-responsive visible-xs">
+                   <span class="product-text">
                      <h4><b>改裝套件</b></h4>
                      <nav class="view">
                        <a href="#"  class="btn btn-default">View More</a>
                      </nav>
-                   </span>
-                 </div>
+                    </span>
+                    </div>
 
-                 <div class="col-lg-3 col-md-3 col-xs-6">
-                   <img src="images/home/product4.jpg" class="img-responsive hidden-xs">
-                   <img src="images/home/product4-mob.jpg" class="img-responsive visible-xs">
-                     <span class="product-text">
+                    <div class="col-lg-3 col-sm-3 col-xs-6">
+                      <img src="images/home/product4.jpg" class="img-responsive hidden-xs">
+                      <img src="images/home/product4-mob.jpg" class="img-responsive visible-xs">
+                    <span class="product-text">
                      <h4><b>消耗用品</b></h4>
                      <nav class="view">
                        <a href="#"  class="btn btn-default">View More</a>
-                     <nav>
-                   </span>
+                     </nav>
+                    </span>
+                    </div>
+                 </article>
+              </div>
+             </div>
+           </SECTION>
+
+           <!-- Item slider-->
+           <section class="container">
+             <div class="row">
+               <div class="col-xs-12 col-sm-12 col-md-12">
+                 <div id="slider-text">
+                     <h2>最新商品介紹</h2>
                  </div>
-               </article>
-             </div>
-           </div>
-         </SECTION>
 
-         <!--Item slider text-->
-         <span class="container">
-           <div class="row" id="slider-text">
-             <div class="col-md-12" >
-               <h2>最新商品介紹</h2>
-             </div>
-           </div>
-         </span>
-
-         <!-- Item slider-->
-         <section class="container">
-           <div class="row">
-             <div class="col-xs-12 col-sm-12 col-md-12">
                <div class="carousel carousel-showmanymoveone slide" id="itemslider">
                  <div class="carousel-inner">
-
                    <div class="item active">
                      <div class="col-xs-12 col-sm-6 col-md-2">
                        <a href="#"><img src="images/home/180-200.jpg" class="img-responsive center-block"></a>
@@ -681,69 +786,85 @@
                        <h5 class="text-center">品名</h5>
                      </div>
                    </div>
-
                  </div>
 
                  <aside id="slider-control">
-                 <a class="left carousel-control" href="#itemslider" data-slide="prev"><img src="images/home/arrow_left-1.png" alt="Left" class="img-responsive"></a>
-                 <a class="right carousel-control" href="#itemslider" data-slide="next"><img src="images/home/arrow_right-1.png" alt="Right" class="img-responsive"></a>
-               </aside>
-
+                    <a class="left carousel-control" href="#itemslider" data-slide="prev"><img src="images/home/arrow_left.png" alt="Left" class="img-responsive"></a>
+                    <a class="right carousel-control" href="#itemslider" data-slide="next"><img src="images/home/arrow_right.png" alt="Right" class="img-responsive"></a>
+                 </aside>
                </div>
+              </div>
              </div>
-           </div>
-         </section>
+           </section>
 
+           <!--快報、知識、粉絲-->
+           <section id="integration">
+             <div class="container">
+               <div class="row">
 
-          <!--快報、知識、粉絲-->
-          <section id="integration">
-            <div class="container">
-              <div class="row">
-                <div class="col-lg-4 col-md-6 col-xs-12">
-                  <aside class="integration-bg">
-                    <hgroup class="integration-title">
-                      <h2>PROGI 最新快報</h2>
-                      <h4><a href="#" style="color:	#FFFFFF;">更多新聞</a></h4>
-                    </hgroup>
-                    <div id="myCarousel" class="carousel slide">
-                 <div class="carousel-inner">
-                     <div class="item active">
-                       <a href="#"><img class="thumbnail" src="http://placehold.it/600x400/" alt="Slide1" class="img-responsive"></a>
-                         <div class="caption">
-                           <h4>新聞標題</h4>
-                             <p>部分段落內文</p>
-                         </div>
-                     </div>
-                     <div class="item">
-                       <a href="#"><img class="thumbnail" src="http://placehold.it/600x400/" alt="Slide1" class="img-responsive"></a>
-                         <div class="caption">
-                           <h4>新聞標題</h4>
-                             <p>部分段落內文</p>
-                         </div>
+                 <!--新聞區:STAR-->
+                 <div class="col-lg-4 col-md-6  col-sm-6 col-xs-12">
+                   <aside class="integration-bg">
+                     <hgroup class="integration-title">
+                       <h2>PROGI 最新快報</h2>
+                       <h4><a href="" style="color:	#FFFFFF;">更多新聞</a></h4>
+                     </hgroup>
+
+                  <div id="myCarousel" class="carousel slide">
+                    <div class="carousel-inner">
+                      <div class="item active">
+                        <a href="#">
+                          <img class="thumbnail" src="images/home/1200-800.jpg" alt="Slide1" class="img-responsive">
+                        </a>
+                      <div class="caption">
+                        <h4>新聞標題</h4>
+                        <p>部分段落內文</p>
                       </div>
+                      </div>
+
                      <div class="item">
-                       <a href="#"><img class="thumbnail" src="http://placehold.it/600x400/" alt="Slide1" class="img-responsive"></a>
-                         <div class="caption">
-                           <h4>新聞標題</h4>
-                             <p>部分段落內文</p>
-                         </div>
+                       <a href="#">
+                         <img class="thumbnail" src="http://placehold.it/600x400/" alt="Slide1" class="img-responsive">
+                       </a>
+                     <div class="caption">
+                       <h4>新聞標題</h4>
+                       <p>部分段落內文</p>
                      </div>
+                     </div>
+
                      <div class="item">
-                       <a href="#"><img class="thumbnail" src="http://placehold.it/600x400/" alt="Slide1" class="img-responsive"></a>
-                         <div class="caption">
-                           <h4>新聞標題</h4>
-                             <p>部分段落內文</p>
-                         </div>
+                       <a href="#">
+                         <img class="thumbnail" src="http://placehold.it/600x400/" alt="Slide1" class="img-responsive">
+                       </a>
+
+                     <div class="caption">
+                       <h4>新聞標題</h4>
+                       <p>部分段落內文</p>
                      </div>
+                     </div>
+
                      <div class="item">
-                       <a href="#"><img class="thumbnail" src="http://placehold.it/600x400/" alt="Slide1"></a>
-                         <div class="caption">
-                           <h4>新聞標題</h4>
-                             <p>部分段落內文</p>
-                         </div>
+                       <a href="#">
+                         <img class="thumbnail" src="http://placehold.it/600x400/" alt="Slide1" class="img-responsive">
+                       </a>
+                     <div class="caption">
+                       <h4>新聞標題</h4>
+                       <p>部分段落內文</p>
                      </div>
-                 </div>
-                  <!-- Indicators -->
+                     </div>
+
+                     <div class="item">
+                       <a href="#">
+                         <img class="thumbnail" src="http://placehold.it/600x400/" alt="Slide1">
+                       </a>
+                     <div class="caption">
+                       <h4>新聞標題</h4>
+                       <p>部分段落內文</p>
+                     </div>
+                     </div>
+                   </div>
+
+                   <!-- Indicators -->
                    <ol class="carousel-indicators">
                      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
                      <li data-target="#myCarousel" data-slide-to="1"></li>
@@ -751,325 +872,319 @@
                      <li data-target="#myCarousel" data-slide-to="3"></li>
                      <li data-target="#myCarousel" data-slide-to="4"></li>
                    </ol>
-             </div><!-- End Carousel -->
-            </aside>
-            </div>
+                  </div><!-- End Carousel -->
+                  </aside>
+                 </div>
+                 <!--新聞區:END-->
 
+                 <!--知識庫:STRA-->
+                 <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
+                   <aside class="integration-bg">
+                     <hgroup class="integration-title">
+                       <h2>知識庫</h2>
+                       <h4>我們有專業知識報你知</h4>
+                     </hgroup>
 
-                <div class="col-lg-4 col-md-6 col-xs-12">
+                   <span>
+                     <a href="#"><img src="images/home/knowledge.png" class="img-responsive">
+                     </a>
+                   </span>
+                   </aside>
+                 </div>
+                 <!--知識庫:END-->
+
+                <div class="col-lg-4 col-md-4 col-xs-12 hidden-md hidden-sm hidden-xs">
                   <aside class="integration-bg">
-                  <hgroup class="integration-title">
-                    <h2>知識庫</h2>
-                    <h4>我們有專業知識報你知</h4>
-                  </hgroup>
+                    <hgroup id="integration-title-fb">
+                      <h2>FB粉絲團</h2>
+                    </hgroup>
 
-                  <span>
-                    <a href="#"><img src="images/home/knowledge.png" class="img-responsive"></a>
-                  </span>
-                </aside>
+                    <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FAPROGI%2F%3Ffref%3Dts&tabs=timeline%2Cevents%2Cmessages&width=360&height=460&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="100%" height="445" style="border:none;overflow:hidden" scrolling="auto" frameborder="0" allowTransparency="true"></iframe>
+                  </aside>
+                </div>
+
                </div>
-
-               <div class="col-lg-4 col-md-4 col-xs-12">
-                 <aside class="integration-bg">
-                  <hgroup class="integration-title">
-                    <h2>FB粉絲團</h2>
-                    <h4></h4>
-                  </hgroup>
-      <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FAPROGI%2F%3Ffref%3Dts&tabs=timeline%2Cevents%2Cmessages&width=360&height=460&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="100%" height="460" style="border:none;overflow:hidden" scrolling="auto" frameborder="0" allowTransparency="true"></iframe>
              </div>
-           </aside>
+           </section>
 
-              </div>
-            </div>
-          </section>
+           <!--媒體區:STAR-->
+           <section id="media">
+             <div class="container">
+               <div class="row">
 
-
-          <!--媒體區-->
-          <section id="media">
-            <div class="container">
-              <div class="row">
-                <aside class="col-lg-6 col-md-6 col-xs-12">
+                 <!--媒體區-影視廳:STAR-->
+                 <aside class="col-lg-6 col-md-6 col-xs-12">
                    <span id="media-cinema">
-                     <a href="#"><img src="images/home/cinema.png" class="img-responsive"></a>
-                     <nav class="media-text">
-                      <h1 class="integration-title"><b>影視廳</b></h1>
+                     <a href="#">
+                       <img src="images/home/cinema.png" class="img-responsive hidden-xs hidden-sm">
+                       <img src="images/home/cinema-mob.jpg" class="img-responsive visible-xs visible-sm">
+                     </a>
+
+                    <nav class="media-text">
+                      <h1 class="media-title"><b>影視廳</b></h1>
                        <div class="view">
                            <a href="#"  class="btn btn-default">View More</a>
-                        </div>
-                     </nav>
-                   </span>
-                </aside>
-
-                <aside class="col-lg-6 col-md-6 col-xs-12">
-                  <span id="media-product">
-                    <a href="#"><img src="images/home/products.png" class="img-responsive"></a>
-                    <nav class="media-text">
-                      <h1 class="integration-title"><b>產品介紹</b></h1>
-                        <div class="view">
-                          <a href="#"  class="btn btn-default">View More</a>
                        </div>
                     </nav>
-                  </span>
-                </aside>
+                   </span>
+                 </aside>
+                 <!--媒體區-影視廳:END-->
+
+                 <!--媒體區-產品介紹:STAR-->
+                 <aside class="col-lg-6 col-md-6 col-xs-12">
+                   <span id="media-product">
+                     <a href="#">
+                       <img src="images/home/products.png" class="img-responsive hidden-xs hidden-sm">
+                       <img src="images/home/products-mob.jpg" class="img-responsive visible-xs visible-sm">
+                     </a>
+
+                    <nav class="media-text">
+                      <h1 class="media-title"><b>產品介紹</b></h1>
+                        <div class="view">
+                          <a href="#"  class="btn btn-default">View More</a>
+                        </div>
+                    </nav>
+                   </span>
+                  </aside>
+                  <!--媒體區-產品介紹:END-->
+
               </div>
             </div>
-          </section>
+           </section>
 
+           <!--BLOG:STRA-->
+           <section class="container">
+             <div class="row">
+               <div class="latest-news-box">
+                 <div class="col-md-8 col-md-offset-2 text-center">
+                   <h2 class="text-primary text-uppercase">PROGI-BLOG</h2>
+                 </div>
 
-          <!--照片區  -->
-          <section>
-            <div class="container">
-              <div class="row">
-                <aside class="col-md-12 col-xs-12">
-                  <hgroup class="Album-title">
-                    <h1><b>PROGI</b>照片集錦</h1>
-                    <h4>副標題</h4>
-                  </hgroup>
-                  <div class='o-sliderContainer' id="pbSliderWrap0" style="margin-top:0;">
-                    <div class='o-slider' id='pbSlider0'>
-                      <div class="o-slider--item" data-image="images/5.jpg">
-                        <div class="o-slider-textWrap">
-                          <h1 class="o-slider-title">活動標題</h1>
-                          <span class="a-divider"></span>
-                          <h2 class="o-slider-subTitle">
-                            <nav class="view">
-                            <a href="#"  class="btn btn-default">View More</a>
-                          <nav>
-                          </h2>
-                          <span class="a-divider"></span>
-                          <p class="o-slider-paragraph">簡短介紹</p>
-                        </div>
-                      </div>
-                      <div class="o-slider--item" data-image="images/6.jpg">
-                        <div class="o-slider-textWrap">
-                          <h1 class="o-slider-title">活動標題</h1>
-                          <span class="a-divider"></span>
-                          <h2 class="o-slider-subTitle">
-                            <nav class="view">
-                            <a href="#"  class="btn btn-default">View More</a>
-                          <nav>
-                          </h2>
-                          <span class="a-divider"></span>
-                          <p class="o-slider-paragraph">簡短介紹</p>
-                        </div>
-                      </div>
-                      <div class="o-slider--item" data-image="images/1.jpg">
-                        <div class="o-slider-textWrap">
-                          <h1 class="o-slider-title">活動標題</h1>
-                          <span class="a-divider"></span>
-                          <h2 class="o-slider-subTitle">
-                            <nav class="view">
-                            <a href="#"  class="btn btn-default">View More</a>
-                          <nav>
-                          </h2>
-                          <span class="a-divider"></span>
-                          <p class="o-slider-paragraph">簡短介紹</p>
-                        </div>
-                      </div>
-                      <div class="o-slider--item" data-image="images/2.jpg">
-                        <div class="o-slider-textWrap">
-                          <h1 class="o-slider-title">活動標題</h1>
-                          <span class="a-divider"></span>
-                          <h2 class="o-slider-subTitle">
-                            <nav class="view">
-                            <a href="#"  class="btn btn-default">View More</a>
-                          <nav>
-                          </h2>
-                          <span class="a-divider"></span>
-                          <p class="o-slider-paragraph">簡短介紹</p>
-                        </div>
-                      </div>
-                      <div class="o-slider--item" data-image="images/3.jpg">
-                        <div class="o-slider-textWrap">
-                          <h1 class="o-slider-title">活動標題</h1>
-                          <span class="a-divider"></span>
-                          <h2 class="o-slider-subTitle">
-                            <nav class="view">
-                            <a href="#"  class="btn btn-default">View More</a>
-                          <nav>
-                          </h2>
-                          <span class="a-divider"></span>
-                          <p class="o-slider-paragraph">簡短介紹</p>
-                        </div>
-                      </div>
-                      <div class="o-slider--item" data-image="images/4.jpg">
-                        <div class="o-slider-textWrap">
-                          <h1 class="o-slider-title">活動標題</h1>
-                          <span class="a-divider"></span>
-                          <h2 class="o-slider-subTitle">
-                            <nav class="view">
-                            <a href="#"  class="btn btn-default">View More</a>
-                          <nav>
-                          </h2>
-                          <span class="a-divider"></span>
-                          <p class="o-slider-paragraph">簡短介紹</p>
-                        </div>
-                      </div>
+                 <!-- Row -->
+                 <div class="row nomargin">
+
+                   <!--BLOG-文章:STAR--><!--BLOG-文章:END-->
+                   <div class="col-md-6 nopadding">
+                     <div class="item item-left">
+                       <div class="col-md-6 nopadding">
+                         <img src="images/picture-wall/CL2A5459.jpg" alt="News Image">
+                       </div>
+
+                     <div class="col-md-6 nopadding">
+                       <div class="content">
+                         <p class="date">08.16.2017</p>
+                         <h2>標題</h2>
+                         <p>一二三四五六七八九十.一二三四五六七八九十.一二三四五六七八九十.</p>
+                       <div class="view">
+                         <a href="#"  class="btn btn-default ">View More</a>
+                       </div>
+                       </div>
+                     </div>
                     </div>
-                  </div>
-                </aside>
+                   </div>
+
+                   <!--BLOG-文章:STAR-->
+                   <div class="col-md-6 nopadding">
+                     <div class="item item-left">
+                       <div class="col-md-6 nopadding">
+                         <img src="images/home/products-mob.jpg" alt="News Image">
+                       </div>
+
+                     <div class="col-md-6 nopadding">
+                       <div class="content">
+                         <p class="date">08.16.2017</p>
+                         <h2>標題</h2>
+                         <p>一二三四五六七八九十.</p>
+                       <div class="view">
+                         <a href="#"  class="btn btn-default ">View More</a>
+                       </div>
+                      </div>
+                     </div>
+                    </div>
+                   </div>
+                   <!--BLOG-文章:END-->
+
+                   <!--BLOG-文章:STAR-->
+                   <div class="col-md-6 nopadding">
+                     <div class="item item-left">
+                       <div class="col-md-6 nopadding">
+                         <img src="images/home/products-mob.jpg" alt="News Image">
+                       </div>
+
+                     <div class="col-md-6 nopadding">
+                       <div class="content">
+                         <p class="date">08.16.2017</p>
+                         <h2>標題</h2>
+                         <p>一二三四五六七八九十.</p>
+                       <div class="view">
+                         <a href="#"  class="btn btn-default ">View More</a>
+                       </div>
+                      </div>
+                     </div>
+                    </div>
+                   </div>
+                   <!--BLOG-文章:END-->
+
+                   <!--BLOG-文章:STAR-->
+                   <div class="col-md-6 nopadding">
+                     <div class="item item-left">
+                       <div class="col-md-6 nopadding">
+                         <img src="images/home/products-mob.jpg" alt="News Image">
+                       </div>
+
+                     <div class="col-md-6 nopadding">
+                       <div class="content">
+                         <p class="date">08.16.2017</p>
+                         <h2>標題</h2>
+                         <p>一二三四五六七八九十.</p>
+                       <div class="view">
+                         <a href="#"  class="btn btn-default ">View More</a>
+                       </div>
+                      </div>
+                     </div>
+                    </div>
+                   </div>
+                   <!--BLOG-文章:END-->
+
+                </div>
+                <!-- ./end Row -->
               </div>
-            </div>
-          </section>
-
-     <!--頁尾-->
-     <footer id="main-footers">
-       <div class="container">
-           <div class="row">
-     </br>
-     <div class="col-md-4">
-       <hgroup class="hgroup-title">
-         <h1><b>我們聯絡資訊</b></h1>
-       </hgroup>
-         <hr>
-         <span class="foot-text" style="text-align:center">
-           <p>電話:+866-4-25299561</p>
-           <p>fax：+866-4-25269152</p>
-           <p>e-mail：fb.rubber@msa.hinet.net</p>
-           <p><img src="IMG/iso9001.jpg"></p>
-        </span>
-     </div>
-
-
-     <div class="col-md-4">
-       <hgroup class="hgroup-title">
-         <h1>聯絡我們<b>PROGI</b></h1>
-       </hgroup>
-         <hr>
-         <form>
-             <div class="row">
-                 <div class="col-md-6 col-sm-6">
-                     <div class="form-group">
-                         <input type="text" class="form-control" required="required" placeholder="姓名">
-                     </div>
-                 </div>
-                 <div class="col-md-6 col-sm-6">
-                     <div class="form-group">
-                         <input type="text" class="form-control" required="required" placeholder="信箱">
-                     </div>
-                 </div>
+              <!--end news dan artikel-->
              </div>
+           </section>
 
-             <div class="row">
-                 <div class="col-md-12 col-sm-12">
-                     <div class="form-group">
-                         <textarea name="message" id="message" required="required" class="form-control" rows="3" placeholder="訊息"></textarea>
-                     </div>
-                     <div class="form-group">
-                         <button type="submit" class="btn btn-primary">送出</button>
-                     </div>
+
+           <!--BLOG-數字頁:STAR-->
+           <nav aria-label="Page navigation" id="div-pagination">
+                     <ul class="pager">
+                         <li>
+                             <a href="#" aria-label="Previous">
+                                 <span aria-hidden="true">«</span>
+                             </a>
+                         </li>
+                         <li><a href="#">1</a></li>
+                         <li><a href="#">2</a></li>
+                         <li><a href="#">3</a></li>
+                         <li><a href="#">4</a></li>
+                         <li><a href="#">5</a></li>
+                         <li>
+                             <a href="#" aria-label="Next">
+                                 <span aria-hidden="true">»</span>
+                             </a>
+                         </li>
+                     </ul>
+            </nav>
+            <!--BLOG-數字頁:END-->
+
+            <!--頁尾:STAR-->
+            <footer id="main-footers">
+              <div class="container">
+                <div class="row">
+                  <div class="col-md-4">
+                    <hgroup class="hgroup-title">
+                      <h1><b>我們聯絡資訊</b></h1>
+                    </hgroup>
+                      <hr>
+
+                     <span class="foot-text" style="text-align:center">
+                       <p>電話:+866-4-25299561</p>
+                       <p>fax：+866-4-25269152</p>
+                       <p>e-mail：fb.rubber@msa.hinet.net</p>
+                     </span>
+                  </div>
+
+                  <div class="col-md-4">
+                    <hgroup class="hgroup-title">
+                      <h1>聯絡我們<b>PROGI</b></h1>
+                    </hgroup>
+                    <hr>
+
+                    <form>
+                      <div class="row">
+                        <div class="col-md-6 col-sm-6">
+                          <div class="form-group">
+                            <input type="text" class="form-control" required="required" placeholder="姓名">
+                          </div>
+                        </div>
+
+                        <div class="col-md-6 col-sm-6">
+                          <div class="form-group">
+                            <input type="text" class="form-control" required="required" placeholder="信箱">
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="row">
+                        <div class="col-md-12 col-sm-12">
+                          <div class="form-group">
+                            <textarea name="message" id="message" required="required" class="form-control" rows="3" placeholder="訊息"></textarea>
+                          </div>
+                          <div class="form-group">
+                            <button type="submit" class="btn btn-primary">送出</button>
+                          </div>
+                        </div>
+                      </div>
+                    </form>
+                  </div>
+
+                  <div class="col-md-4" style="text-align:center;">
+                    <hgroup class="hgroup-title">
+                      <h1>我們的社群</h1>
+                    </hgroup>
+                     <hr>
+                       <span class="footer-icons">
+                         <a href="https://www.facebook.com/APROGI/?fref=ts">
+                           <i class="fa fa-facebook-square fa-5x" aria-hidden="true" alt="Facebook" title="Facebook" style="color:white;">
+                           </i>
+                         </a>
+                         <a href="https://www.youtube.com/user/FBJordanYu">
+                           <i class="fa fa-youtube fa-5x" aria-hidden="true" alt="Youtube" title="Youtube" style="color:white;">
+                           </i>
+                         </a>
+                         <a href="https://www.instagram.com/progi_international/">
+                           <i class="fa fa-instagram fa-5x" aria-hidden="true" alt="instagram" title="instagram" style="color:white;">
+                           </i>
+                         </a>
+                       </span>
                  </div>
+
+                 <div class="col-md-12">
+                   <h5 class="foot-text" style="text-align:center">Copyright © 2017源豐本汽車工業有限公司PROGI PARTS CO., LTD. All Rights Reserved.|Design by Raven</h5>
+                 </div>
+              </div>
              </div>
-         </form>
-     </div>
-
-
-
-       <div class="col-md-4" style="text-align:center;">
-         <hgroup class="hgroup-title">
-           <h1>我們的社群</h1>
-         </hgroup>
-           <hr>
-           <i class="fa fa-facebook-square fa-5x" aria-hidden="true" alt="Facebook" title="Facebook">
-             <a href="https://www.facebook.com/APROGI/?fref=ts">
-             </a>
-           </i>
-
-           <i class="fa fa-youtube fa-5x" aria-hidden="true" alt="Youtube" title="Youtube">
-             <a href="https://www.youtube.com/user/FBJordanYu">
-             </a>
-           </i>
-           <i class="fa fa-instagram fa-5x" aria-hidden="true" alt="instagram" title="instagram">
-             <a href="#">
-             </a>
-           </i>
-       </div>
-
-         <div class="col-md-12">
-           <h5 class="foot-text" style="text-align:center">Copyright © 2017源豐本汽車工業有限公司PROGI PARTS CO., LTD. All Rights Reserved.
-           |Design by Raven</h5>
-        </div>
-       </div>
-     </footer>
+            </footer>
+            <!--頁尾:END-->
 
 
 
 
-<!--
-  <a href="https://farm9.staticflickr.com/8642/16455005578_0fdfc6c3da_b.jpg" data-lity data-lity-desc="Photo of a flower">Image</a>
-<a href="#inline" data-lity>Inline</a>
-<a href="https://www.youtube.com/watch?v=h1TLxUy7-Po" data-lity>Youtube</a>
-<a href="//vimeo.com/1084537" data-lity>iFrame Vimeo</a>
-<a href="//maps.google.com/maps?q=1600+Amphitheatre+Parkway,+Mountain+View,+CA" data-lity>Google Maps</a>
-</div>
--->
+            <!--SCRIPT區-->
 
-<!--NEWS BOX:STAR-->
-<!--NEWS BOX:END-->
+            <!--FB:STAR-->
+            <div id="fb-root"></div>
+            <script>(function(d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s); js.id = id;
+            js.src = "//connect.facebook.net/zh_TW/sdk.js#xfbml=1&version=v2.10";
+            fjs.parentNode.insertBefore(js, fjs);
+            }(document, 'script', 'facebook-jssdk'));</script>
+            <!--FB:END-->
 
-    <!--FB:STAR-->
-    <div id="fb-root"></div>
-    <script>(function(d, s, id) {
-    var js, fjs = d.getElementsByTagName(s)[0];
-    if (d.getElementById(id)) return;
-    js = d.createElement(s); js.id = id;
-    js.src = "//connect.facebook.net/zh_TW/sdk.js#xfbml=1&version=v2.10";
-    fjs.parentNode.insertBefore(js, fjs);
-    }(document, 'script', 'facebook-jssdk'));</script>
-    <!--FB:END-->
+            <!--新品介紹 Carousel:STAR-->
+            <script src="js/Carousel/scripts.js"></script>
+            <!--新品介紹 Carousel:END-->
 
-    <!--新品介紹 Carousel:STAR-->
-    <script src="js/Carousel/scripts.js"></script>
-    <!--新品介紹 Carousel:END-->
+            <!--video light box:STAR-->
+            <link href="css/lightbox/lity.css" rel="stylesheet">
+            <script src="js/lightbox/lity.js"></script>
+            <!--video light box:END-->
 
 
-    <!--video light box:STAR-->
-    <link href="css/lightbox/lity.css" rel="stylesheet">
-    <script src="js/lightbox/lity.js"></script>
-    <!--video light box:END-->
+            <script src="js/bootsnav.js"></script>
+            <script src="js/bootstrap.js"></script>
 
-    <!--照片牆:STAR-->
-    <script src='js/hammer.min.js'></script>
-  	<script src='js/slider.js'></script>
-    <script>
-$('#pbSlider0').pbTouchSlider({
-  slider_Wrap: '#pbSliderWrap0',
-  slider_Threshold: 10,
-  slider_Speed:600,
-  slider_Ease:'ease-out',
-  slider_Drag : true,
-  slider_Arrows: {
-    enabled : true
-  },
-  slider_Dots: {
-    class :'.o-slider-pagination',
-    enabled : true
-  },
-  slider_Breakpoints: {
-      default: {
-          height: 500
-      },
-      tablet: {
-          height: 350,
-          media: 1024
-      },
-      smartphone: {
-          height: 250,
-          media: 768
-      }
-  }
-});
-</script>
-
-    <!--照片牆:END-->
-
-
-
-
-
-
-    <script src="js/bootsnav.js"></script>
-    <script src="js/bootstrap.js"></script>
 
 </body>
 </html>
